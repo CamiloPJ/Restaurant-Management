@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { Navbar } from "./components/navbar/navbar";
 import { Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home/Home";
-import { Cart } from "./pages/Cart/Cart";
-import { PlaceOrder } from "./pages/PlaceOrder/PlaceOrder";
 import Footer from "./components/Footer/Footer";
 import LoginScreen from "./components/LoginScreen/LoginScreen";
+import Cart from "./pages/Cart/Cart";
+import PlaceOrder from "./pages/PlaceOrder/PlaceOrder";
 
 const App = () => {
 
