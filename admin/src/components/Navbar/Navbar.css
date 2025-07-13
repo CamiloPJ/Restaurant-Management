@@ -1,12 +1,42 @@
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 8px 4%;
 }
-.navbar .logo{
+
+.navbar .logo {
     width: max(10%, 80px);
 }
-.navbar .profile{
+
+.navbar .profile {
     width: 40px;
+}
+
+/* Estilos responsivos para móviles */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 8px 6%;
+    }
+
+    .navbar .logo {
+        width: 60px;
+    }
+
+    .navbar .profile {
+        width: 32px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .navbar .logo,
+    .navbar .profile {
+        width: 50px;
+    }
 }
