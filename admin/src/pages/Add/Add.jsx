@@ -10,7 +10,7 @@ const Add = ({url}) => {
     name: "",
     description: "",
     price: "",
-    category: "Salad",
+    category: "Ensalada",
   });
 
   const onChageHandler = (event) => {
