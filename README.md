@@ -197,7 +197,7 @@ npm run dev
 
 Configura tu archivo .env con la base de datos en mongodb atlas (Sustituir el usuario y contraseña en MONGODB_URI)
 ```env
-MONGODB_URI=mongodb+srv://capaterjimenez:nm8QtI2cEKdPQ6aQ@cluster0.bpsaxn6.mongodb.net/Restaurant-management?retryWrites=true&w=majority
+MONGODB_URI=mongodb+srv://tusuario:tucontrasenaQ@cluster0.bpsaxn6.mongodb.net/Restaurant-management?retryWrites=true&w=majority
 ```
 - Terminal (Backend):
 ```bash
