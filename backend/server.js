@@ -24,7 +24,7 @@ app.use(cors())
 connectDB();
 
 //API ENDPOINTS
-app.use("/api/food", foodRouter)
+app.use("/api/products", foodRouter)
 app.use("/images", express.static('uploads'))
 app.use("/api/user", userRouter)
 app.use("/api/cart", cartRouter)
