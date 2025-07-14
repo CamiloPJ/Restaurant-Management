@@ -41,6 +41,7 @@
   - [🛠️ Instalación](#-instalación)
 - [▶️ Ejecucion del proyecto](#-ejecucion-del-proyecto)
 - [👤 Autor](#-autor)
+- [## 🧪 Usuario de Prueba](#-usuario-de-prueba)
 -------
 
 ## Resumen
@@ -205,6 +206,20 @@ npm install
 npm run server
 ```
 
+---
+
+## 🧪 Usuario de Prueba
+
+Para facilitar las pruebas del sistema, puedes iniciar sesión con el siguiente usuario de prueba ya registrado en la base de datos:
+📧 Correo: test12@gmail.dev
+🔑 Contraseña: contrasena123.
+
+
+> ✅ También puedes registrar nuevos usuarios directamente desde el frontend o utilizando herramientas como Postman mediante el endpoint `/api/user/register`.
+
+Si decides crear nuevos usuarios, asegúrate de proporcionar un correo electrónico válido, un nombre de usuario y una contraseña segura. Una vez registrado, podrás iniciar sesión y comenzar a interactuar con el sistema: ver productos, añadir al carrito, y hacer pedidos.
+
+---
 
 ##  👤 Autor
 📧 capaterjimenez@gmail.com
