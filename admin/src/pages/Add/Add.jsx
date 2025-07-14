@@ -87,13 +87,13 @@ const Add = ({url}) => {
           <div className="add-category flex-col">
             <p>Product Category</p>
             <select onChange={onChageHandler} name="category" id="category">
-              <option value="Salad">Salad</option>
-              <option value="Rolls">Rolls</option>
-              <option value="Deserts">Deserts</option>
-              <option value="Cake">Cake</option>
-              <option value="Pure Veg">Pure Veg</option>
+              <option value="Ensalada">Ensalada</option>
+              <option value="Rollos">Rollos</option>
+              <option value="Postres">Postres</option>
+              <option value="Pastel">Pastel</option>
+              <option value="Vegano">Vegano</option>
               <option value="Pasta">Pasta</option>
-              <option value="Noodle">Noodle</option>
+              <option value="Fideos">Fideos</option>
             </select>
           </div>
           <div className="add-price flex-col">
