@@ -23,7 +23,7 @@
     background: transparent;
     font-size: 16px;
     color: #49557e;
-    border: 1px solid tomato;
+    border: 1px solid rgb(34, 235, 171);
     padding: 10px 30px;
     border-radius: 50px;
     cursor: pointer;
@@ -50,7 +50,7 @@
     position: absolute;
     min-width: 10px;
     min-height: 10px;
-    background-color: tomato;
+    background-color: rgb(34, 235, 171);
     border-radius: 5px;
     top: -8px;
     right: -8px;
@@ -65,7 +65,7 @@
     background-color: #f2f2f2;
     border-radius: 4px;
     padding: 12px 25px;
-    border: 1px solid tomato;
+    border: 1px solid rgb(34, 235, 171);
     outline: 2px solid white;
     list-style: none;
 }
