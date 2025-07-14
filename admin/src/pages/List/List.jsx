@@ -6,7 +6,7 @@ import axios from 'axios';
 const List = ({url}) => {
   const[list, setList] = useState([]);
   const fetchList = async () => {
-    const response = await axios.get(`${url}/api/food/list`);
+    const response = await axios.get(`${url}/api/products/list`);
     
     if (response.data.success) {
       setList(response.data.data)
@@ -16,7 +16,7 @@ const List = ({url}) => {
   }
 
   const removeFood = async(foodId) => {
-    const response = await axios.post(`${url}/api/food/remove`,{id:foodId})
+    const response = await axios.post(`${url}/api/products/remove`,{id:foodId})
     await fetchList();
     if (response.data.success) {
       toast.success(response.data.message)
