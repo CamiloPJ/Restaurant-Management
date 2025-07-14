@@ -1,0 +1,10 @@
+services:
+  backend:
+    build: .
+    ports:
+      - "4000:4000"  # Mapea el puerto 4000 del host al 4000 del contenedor
+    environment:
+      - MONGODB_URI=${MONGODB_URI}  # Usa la variable de entorno del archivo .env
+      - JWT_SECRET=${JWT_SECRET}
+    volumes:
+      - ./uploads:/app/uploads  # Persiste las imágenes subidas
