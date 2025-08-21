@@ -48,6 +48,20 @@
 
 **Restaurant-Management** es una plataforma full-stack diseñada para simplificar las operaciones de restaurantes mediante una arquitectura moderna y escalable. Combina un frontend en React construido con Vite para un desarrollo rápido y reemplazo de módulos en caliente, junto con un backend seguro en Node.js orquestado mediante contenedores Docker. El sistema incluye gestión centralizada del estado, autenticación de usuarios, visualización dinámica de alimentos y manejo completo de pedidos.
 
+### 👁️ Vista previa de la pagina.
+### Home 🏠
+<img width="1848" height="878" alt="image" src="https://github.com/user-attachments/assets/f11300fa-39b1-47b0-83d4-908ffcdb1306" />
+
+<img width="1845" height="874" alt="image" src="https://github.com/user-attachments/assets/3b848903-31fe-4b96-a010-e8794fd95a5c" />
+
+### Carrito 🛒
+<img width="1843" height="880" alt="image" src="https://github.com/user-attachments/assets/3f323892-d044-4646-ac33-1c820d7fa5c8" />
+
+### Pago 💰
+<img width="1838" height="872" alt="image" src="https://github.com/user-attachments/assets/440e7f37-a2b3-4f4f-9585-d798320c97ab" />
+
+
+
 ### 🚀 Características Principales
 
 Este proyecto permite a los desarrolladores construir, gestionar y escalar aplicaciones de restaurantes de manera eficiente. Las características principales incluyen:
